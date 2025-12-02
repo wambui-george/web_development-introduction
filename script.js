@@ -175,11 +175,11 @@ let value = 9;
 value++;
 console.log(value);
 
-let loopedValue = document.getElementById("loopedValue");
-for (let i = 1; i < 5; i++) {
-  document.body.innerText += "Hello";
-  console.log(i);
-}
+// let loopedValue = document.getElementById("loopedValue");
+// for (let i = 1; i < 5; i++) {
+//   document.body.innerText += "Hello";
+//   console.log(i);
+// }
 // for...in loop
 // it is used to repeat /loop into object keys
 
@@ -200,30 +200,30 @@ for (const key in someone) {
 // loops into arrays
 // synatx for(const variable of array){}
 
-let fruits = ["mango", "orrange", "orange", "kiwi"];
+// let fruits = ["mango", "orrange", "orange", "kiwi"];
 
-for (const fruit of fruits) {
-  document.body.innerHTML += `<h2>i like ${fruit}</h2>`;
-}
+// for (const fruit of fruits) {
+//   document.body.innerHTML += `<h2>i like ${fruit}</h2>`;
+// }
 
-// for each loop
-// synatx- array.forEach(callBackFunction(currentValue,index,array))
+// // for each loop
+// // synatx- array.forEach(callBackFunction(currentValue,index,array))
 
-fruits.forEach(function (fruit, index) {
-  document.body.innerHTML += `<h3>${index + 1} 
-  ${fruit}, number ${index} is the best</h3>`;
-});
+// fruits.forEach(function (fruit, index) {
+//   document.body.innerHTML += `<h3>${index + 1}
+//   ${fruit}, number ${index} is the best</h3>`;
+// });
 
-// arrow functions
-// syntax () => {}
+// // arrow functions
+// // syntax () => {}
 
-const newFunc = (a, b) => {
-  console.log(a + b);
-};
-newFunc(1, 3);
-newFunc("Hello", "you");
-newFunc("sema", "wazi");
+// const newFunc = (a, b) => {
+//   console.log(a + b);
+// };
+// newFunc(1, 3);
+// newFunc("Hello", "you");
+// newFunc("sema", "wazi");
 
-// old function
-// syntax: function(){}
-const oldFunc = function funcName() {};
+// // old function
+// // syntax: function(){}
+// const oldFunc = function funcName() {};
